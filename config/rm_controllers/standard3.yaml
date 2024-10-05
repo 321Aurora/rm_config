@@ -83,10 +83,12 @@ controllers:
       pid: { p: 0.8, i: 21.0, d: 0.0, i_clamp_max: 0.28, i_clamp_min: -0.28, antiwindup: true, publish_state: true }
       pid_pos: { p: 20, i: 0, d: 0.0, i_max: 0.0, i_min: 0.0, antiwindup: true, publish_state: true }
       k_chassis_vel: 0.014
-      k_chassis_vel_a: -5.32e-5
-      k_chassis_vel_b: 1.59e-3
-      k_chassis_vel_c: -2.37e-3
-      k_chassis_vel_d: 0.136
+      k_chassis_vel_a: 4.40e-6
+      k_chassis_vel_b: -1.82e-4
+      k_chassis_vel_c: 2.75e-3
+      k_chassis_vel_d: -1.83e-2
+      k_chassis_vel_e: 5.09e-2
+      k_chassis_vel_f: 0.087
       k_v: 1.0
       accel: 45.0
     pitch:
