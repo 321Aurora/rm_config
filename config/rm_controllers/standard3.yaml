@@ -82,9 +82,9 @@ controllers:
       joint: "yaw_joint"
       pid: { p: 0.8, i: 21.0, d: 0.0, i_clamp_max: 0.28, i_clamp_min: -0.28, antiwindup: true, publish_state: true }
       pid_pos: { p: 0.0, i: 0.0, d: 0.0, i_max: 0.0, i_min: 0.0, antiwindup: true, publish_state: true }
-      a_compensation: 5.48e-5
-      b_compensation: 7.71e-4
-      c_compensation: -7.53e-4
+      chassis_comp_a: 5.48e-5
+      chassis_comp_b: 7.71e-4
+      chassis_comp_c: -7.53e-4
       k_v: 1.0
       accel: 45.0
     pitch:
